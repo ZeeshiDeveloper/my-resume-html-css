@@ -1,0 +1,254 @@
+body{
+    font-family: inter, "Arial Narrow Bold", sans-serif;
+}
+.card{
+    width: 42%;
+    height: 55rem;
+    margin: auto;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 2px;
+    box-shadow:0 0 20px 10px #f3f3f3;
+    display: flex;
+}
+.container-dark{
+    width: 48%;
+    height: 100%;
+    background-color: gray;
+}
+.container-dark__profile{
+    position: relative;
+}
+.container-dark__profile > img{
+    width: 70%;
+    height: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3rem;
+}
+.container-dark__name{
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    margin-top: -4.55rem;
+    text-transform: uppercase;
+}
+.container-dark__name h2{
+    margin: 1rem auto 0;
+    max-width: 70%;
+    color: #fff;
+}
+.container-dark__name p{
+    max-width: 70%;
+    margin: 1px auto 1rem;
+    font-size: 11px;
+}
+
+/* Get In Touch */
+.container-dark__in-touch{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+.container-dark__in-touch h3{
+    font-weight: 100;
+}
+.container-dark__in-touch p{
+    font-size: 11px;
+}
+
+/* Education */
+.container-dark__education{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+.education{
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+.education_cs{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 8px;
+}
+.education_uni{
+    margin-top: 8px;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+.education_para{
+    margin-top: 3px;
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+.education_inter{
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 8px;
+}
+.education_clg{
+    margin-top: 8px;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+.education_para{
+    margin-top: 3px;
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+/* Reference */
+.container-dark__reference{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+.reference{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.reference__name{
+    margin-top: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+.reference__profession{
+    margin-top: 8px;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+.reference__company{
+    margin-top: 3px;
+    font-size: 10px;
+    line-height: 1.4;
+    margin-bottom: 3px;
+}
+.reference__email{
+    margin-top: 3px;
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+
+/* 2nd Container  (Container Light) */
+.container-light{
+    padding: 3rem 2rem;
+    width: 58%;
+    height: 100%;
+}
+/* overview */
+.overview{
+    margin: 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    color: #161515;
+    font-weight: 100;
+}
+.heading__box{
+    background-color: gray;
+    height: 6px;
+    width: 6px;
+    margin-left: 2rem;
+}
+.heading__line{
+    width: 60%;
+    background-color: gray;
+}
+.overview__para{
+    font-size: 11px;
+    margin-top: 1rem;
+    word-spacing: 5px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: gray;
+}
+/* Work Experience */
+.work_experience{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    color: #161515;
+    font-weight: 100;
+}
+.experience_heading__line{
+    width: 34.5%;
+    background-color: gray;
+}
+.experience_marketing{
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #382e2e;
+
+}
+.experience_company{
+    margin-top: 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    color: gray;
+}
+.work_experience__para{
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: gray;
+    margin-top: 4px;
+    margin-bottom: 1rem;
+}
+/* PRO SKILLS */
+.pro-skills,
+.per-skills{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    color: #161515;
+    font-weight: 100;
+}
+.skill_heading__line{
+    width: 56.5%;
+    background-color: gray;
+}
+.pro-skills__flex,
+.per-skills__flex{
+    display: flex;
+    align-items: center;
+}
+.pro-skills__name,
+.per-skills__name{
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: gray;
+    margin-bottom: 14px;
+    width: 23%;
+}
+.pro-skills__slider,
+.per-skills__slider{
+    width: 77%;
+}
+.slider__size{
+    width: 100%;
+}
+
+/* per Skills */
+.per-skill_heading__line{
+    width: 57%;
+    background-color: gray; 
+}
