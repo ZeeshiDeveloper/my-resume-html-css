@@ -16,7 +16,7 @@ body{
 }
 @media screen and (min-width:768px) {
     .grid--cols-2{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 45% 55%);
     }
 }
 
@@ -208,7 +208,7 @@ body{
     color: #161515;
     font-weight: 100;
 
-    font-size: 11px;
+    font-size: 14px;
 }
 .experience_heading__line{
     /* width: 34.5%; */
@@ -221,19 +221,19 @@ body{
     margin-bottom: 8px;
     color: #382e2e;
     /* font-size: 12px; */
-    font-size: 10px;
+    font-size: 9px;
 
 }
 .experience_company{
     margin-top: 8px;
     /* font-size: 11px; */
-    font-size: 10px;
+    font-size: 9px;
     text-transform: uppercase;
     margin-bottom: 3px;
     color: gray;
 }
 .work_experience__para{
-    font-size: 10px;
+    font-size: 9px;
     letter-spacing: 0.5px;
     line-height: 1.5;
     color: gray;
@@ -340,5 +340,200 @@ body{
     .per-skills__name{
         font-size: 7px;
         width: 45%;
+    }
+    .overview .heading__line{
+        width: 68%;
+    }
+    .work_experience .experience_heading__line{
+        width: 49%;
+    }
+    .skill_heading__line{
+        width: 65.7%;
+    }
+    .per-skill_heading__line{
+        width: 66%;
+    }
+}
+
+
+@media screen and (max-width:375px) and (min-width:320px) {
+    .card{
+        width: 88%;
+    }
+    .container-dark__name{
+        font-size: 15px;
+        margin-top: -4.4rem;
+    }
+    .container-dark__name p{
+        font-size: 10px;
+    } 
+}
+
+
+@media screen and (max-width:425px) and (min-width:375px) {
+    .card{
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width:530px) and (min-width:425px) {
+    .card{
+        width: 60%;
+    }
+    .pro-skills__name,
+    .per-skills__name{
+        font-size: 7px;
+        width: 45%;
+    }
+    .overview .heading__line{
+        width: 68%;
+    }
+    .work_experience .experience_heading__line{
+        width: 49%;
+    }
+    .skill_heading__line{
+        width: 65.7%;
+    }
+    .per-skill_heading__line{
+        width: 66%;
+    }
+}
+
+
+@media screen and (max-width:600px) and (min-width:531px) {
+    .card{
+        width: 50%;
+    }
+    .pro-skills__name,
+    .per-skills__name{
+        font-size: 7px;
+        width: 45%;
+    }
+    .overview .heading__line{
+        width: 68%;
+    }
+    .work_experience .experience_heading__line{
+        width: 49%;
+    }
+    .skill_heading__line{
+        width: 65.7%;
+    }
+    .per-skill_heading__line{
+        width: 66%;
+    }
+}
+
+
+@media screen and (max-width:768px) and (min-width:600px) {
+    .card{
+        width: 45%;
+    }
+    .pro-skills__name,
+    .per-skills__name{
+        font-size: 7px;
+        width: 45%;
+    }
+    .overview .heading__line{
+        width: 68%;
+    }
+    .work_experience .experience_heading__line{
+        width: 51.3%;
+    }
+    .skill_heading__line{
+        width: 67.5%;
+    }
+    .per-skill_heading__line{
+        width: 68%;
+    }
+}
+
+
+@media screen and (max-width:1024px) and (min-width:768px){
+    .card{
+        width: 80%;
+    }
+    .container-dark__name{
+        font-size: 18px;
+        margin-top: -4.6rem;
+    }
+    .container-dark__name p{
+        font-size: 9px;
+    }
+    .pro-skills__name,
+    .per-skills__name{
+        font-size: 8px;
+    }
+    .overview .heading__line{
+        width: 75%;
+    }
+    .work_experience .experience_heading__line{
+        width: 65%;
+    }
+    .skill_heading__line{
+        width: 76.5%;
+    }
+    .per-skill_heading__line{
+        width: 77%;
+    }
+}
+
+
+@media screen and (max-width:1440px) and (min-width:1024px){
+    .card{
+        width: 65%;
+    }
+    .container-dark__name{
+        font-size: 18px;
+        margin-top: -4.6rem;
+    }
+    .container-dark__name p{
+        font-size: 9px;
+    }
+    .pro-skills__name,
+    .per-skills__name{
+        font-size: 8px;
+    }
+    .overview .heading__line{
+        width: 78%;
+    }
+    .work_experience .experience_heading__line{
+        width: 70%;
+    }
+    .skill_heading__line{
+        width: 80%;
+    }
+    .per-skill_heading__line{
+        width: 80.4%;
+    }
+}
+
+
+@media screen and (max-width:2560px) and (min-width:1440px){
+    .card{
+        width: 40%;
+    }
+    .container-dark__name{
+        font-size: 18px;
+        margin-top: -4.6rem;
+    }
+    .container-dark__name p{
+        font-size: 9px;
+    }
+    .pro-skills__name,
+    .per-skills__name{
+        font-size: 9px;
+    }
+    .overview .heading__line{
+        width: 80%;
+    }
+    .work_experience .experience_heading__line{
+        width: 73%;
+    }
+    .skill_heading__line{
+        width: 82.2%;
+    }
+    .per-skill_heading__line{
+        width: 82.4%;
     }
 }
