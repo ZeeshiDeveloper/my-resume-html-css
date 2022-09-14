@@ -342,16 +342,16 @@ body{
         width: 45%;
     }
     .overview .heading__line{
-        width: 68%;
+        width: 80%;
     }
     .work_experience .experience_heading__line{
-        width: 49%;
+        width: 80%;
     }
     .skill_heading__line{
-        width: 65.7%;
+        width: 80%;
     }
     .per-skill_heading__line{
-        width: 66%;
+        width: 80%;
     }
 }
 
@@ -366,13 +366,47 @@ body{
     }
     .container-dark__name p{
         font-size: 10px;
+    }
+    .overview .heading__line{
+        width: 70%;
+    }
+    .work_experience .experience_heading__line{
+        width: 32.2%;
+    }
+    .skill_heading__line{
+        width: 70%;
+    }
+    .per-skill_heading__line{
+        width: 70%;
     } 
+    .pro-skills__name,
+    .per-skills__name{
+        font-size: 7px;
+        width: 45%;
+    }
 }
 
 
 @media screen and (max-width:425px) and (min-width:375px) {
     .card{
         width: 75%;
+    }
+    .overview .heading__line{
+        width: 70%;
+    }
+    .work_experience .experience_heading__line{
+        width: 31%;
+    }
+    .skill_heading__line{
+        width: 70%;
+    }
+    .per-skill_heading__line{
+        width: 70%;
+    }
+    .pro-skills__name,
+    .per-skills__name{
+        font-size: 7px;
+        width: 45%;
     }
 }
 
