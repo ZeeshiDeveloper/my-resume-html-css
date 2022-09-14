@@ -1,5 +1,6 @@
 body{
-    font-family: inter, "Arial Narrow Bold", sans-serif;
+    /* font-family: inter, "Arial Narrow Bold", sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 .card{
     width: 42%;
@@ -43,7 +44,7 @@ body{
     color: #fff;
     background-color: rgb(0, 0, 0);
     opacity: 0.5;
-    margin-top: -4.55rem;
+    margin-top: -4.7rem;
     text-transform: uppercase;
 }
 .container-dark__name h2{
@@ -304,7 +305,7 @@ body{
     }
     .container-dark__name{
         font-size: 11px;
-        margin-top: -3.7rem;
+        margin-top: -3.9rem;
     }
     .container-dark__name p{
         font-size: 7px;
@@ -362,7 +363,7 @@ body{
     }
     .container-dark__name{
         font-size: 15px;
-        margin-top: -4.4rem;
+        margin-top: -4.55rem;
     }
     .container-dark__name p{
         font-size: 10px;
@@ -489,7 +490,7 @@ body{
     }
     .container-dark__name{
         font-size: 18px;
-        margin-top: -4.6rem;
+        margin-top: -4.8rem;
     }
     .container-dark__name p{
         font-size: 9px;
@@ -519,7 +520,7 @@ body{
     }
     .container-dark__name{
         font-size: 18px;
-        margin-top: -4.6rem;
+        margin-top: -4.8rem;
     }
     .container-dark__name p{
         font-size: 9px;
@@ -549,7 +550,7 @@ body{
     }
     .container-dark__name{
         font-size: 18px;
-        margin-top: -4.6rem;
+        margin-top: -4.8rem;
     }
     .container-dark__name p{
         font-size: 9px;
