@@ -229,6 +229,7 @@ body{
 .per-skills__flex{
     display: flex;
     align-items: center;
+    margin: 10px 0;
 }
 .pro-skills__name,
 .per-skills__name{
@@ -236,7 +237,6 @@ body{
     font-size: 10px;
     text-transform: uppercase;
     color: gray;
-    margin-bottom: 14px;
     width: 23%;
 }
 .pro-skills__slider,
@@ -251,4 +251,12 @@ body{
 .per-skill_heading__line{
     width: 57%;
     background-color: gray; 
+}
+.dark-percentage{
+    background-color: #544a4a;
+    height: 5px;
+}
+.light-percentage{
+    height: 5px;
+    background-color: #cdcdcd;
 }
